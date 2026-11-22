@@ -1,37 +1,38 @@
-# Ticket 003: Network Connectivity Failure
+## Ticket 003 – Network Connectivity
 
-## Ticket Information
-- Ticket ID: HD-003
-- Category: Network
-- Type: Incident
-- Priority: P2 - High (Illustrative)
-- Assigned Team: IT Support L1
-- Status: Escalated (Simulated)
+### Escalation Report
 
-## User Report
-A user reports that their computer cannot access the internet.
+**Issue:** Employee unable to access the company network or internet.
 
-## Impact
-One user is initially reported as affected. The wider network impact is not yet established.
+**Initial findings:**
+- Computer connected to the correct company Wi-Fi.
+- Windows displayed "No Internet, secured."
+- `ipconfig /all` showed an APIPA IPv4 address (`169.254.45.120`).
+- Default gateway and DNS server were not assigned.
+- DHCP was enabled.
+- Running `ipconfig /renew` did not resolve the issue.
 
-## Initial Investigation
-- Check Wi-Fi or Ethernet connection.
-- Inspect IP configuration using `ipconfig /all`.
-- Test gateway connectivity.
-- Test DNS resolution using `nslookup`.
-- Compare with another device.
+**Troubleshooting performed:**
+- Verified the company Wi-Fi connection.
+- Checked wireless signal strength (95%).
+- Confirmed that other employees could access the company network.
+- Inspected the wireless adapter in Device Manager.
+- Confirmed that the adapter was functioning properly.
+- Confirmed that the DHCP Client service was running.
+- Tested connectivity using another network (mobile hotspot).
 
-## Findings
-The simulated investigation indicates that the issue may involve network configuration beyond the technician's authorization.
+**Additional findings:**
 
-## Action Taken
-The ticket is escalated to L2 with diagnostic findings and troubleshooting notes.
+The computer successfully connected to the mobile hotspot and received valid network settings. Internet access worked normally on that network.
 
-## Verification
-Pending L2 investigation.
+**Suspected cause:**
 
-## Closure Notes
-Ticket remains open pending specialist resolution.
+The issue appears specific to the company network connection or configuration. Possible causes include DHCP communication failure, wireless access point configuration, VLAN assignment or network access controls.
 
-## Lessons Learned
-Complete diagnostic notes improve escalation efficiency and reduce duplicated troubleshooting.
+**Escalation request:**
+
+Please investigate DHCP communication and the wireless network configuration affecting this workstation.
+
+**Status:** Escalated to Network Administrator – Simulated.
+
+**Note:** This is a simulated help desk investigation for learning and portfolio purposes.
