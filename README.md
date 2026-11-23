@@ -2,33 +2,23 @@
 
 ## Project Overview
 
-This project simulates an IT Help Desk environment by documenting common IT support incidents, service requests, ticket prioritization, SLA management, and escalation procedures.
+This project demonstrates practical Help Desk and IT Support troubleshooting through six simulated support tickets.
 
-It demonstrates how an IT support technician records user issues, investigates problems, assigns priorities, documents troubleshooting activities, and manages tickets through resolution or escalation.
+It focuses on incident management, service requests, ticket prioritization, SLA awareness, troubleshooting procedures, escalation, user communication, and documentation.
 
-The project uses simulated scenarios to demonstrate professional IT service management practices.
+The project is designed to demonstrate how an entry-level IT Support Technician can investigate common workplace IT issues, identify possible causes, recommend appropriate solutions, and document outcomes.
 
 ## Project Objectives
 
-- Understand incident and service request management.
-- Learn how to create and document help desk tickets.
-- Understand ticket categorization and prioritization.
-- Apply impact and urgency when assigning ticket priorities.
-- Understand response time and resolution time.
-- Learn how Service Level Agreements (SLAs) are monitored.
-- Understand L1, L2, and L3 support responsibilities.
-- Practice escalation and ticket closure procedures.
-- Develop professional technical documentation skills.
+- Understand the IT Help Desk ticket lifecycle.
+- Practice gathering information from users.
+- Learn how to categorize and prioritize support tickets.
+- Apply structured troubleshooting methods.
+- Understand when to escalate incidents.
+- Document incidents and resolutions professionally.
+- Develop customer service and communication skills.
 
-## Project Environment
-
-- Platform: GitHub
-- Documentation Format: Markdown
-- Environment: Simulated IT Help Desk
-- Support Model: Level 1, Level 2, and Level 3
-- Ticket Types: Incidents and Service Requests
-
-## Project Structure
+## Repository Structure
 
 ```text
 help-desk-ticketing-simulation/
@@ -54,62 +44,114 @@ help-desk-ticketing-simulation/
     └── service-request-template.md
 ```
 
-## Project Documentation
+## Documentation
 
-### Documentation
-- [Incident Management](documentation/incident-management.md)
-- [Ticket Prioritization](documentation/ticket-prioritization.md)
-- [SLA Management](documentation/sla-management.md)
-- [Escalation Procedures](documentation/escalation-procedures.md)
+The documentation directory contains four guides:
 
-### Simulated Tickets
-- [Slow Computer](tickets/01-slow-computer.md)
-- [Password Reset](tickets/02-password-reset.md)
-- [Network Connectivity](tickets/03-network-connectivity.md)
-- [Software Installation](tickets/04-software-installation.md)
-- [Printer Not Working](tickets/05-printer-not-working.md)
-- [Email Access Issue](tickets/06-email-access-issue.md)
+| Document | Description |
+|---|---|
+| Incident Management | Incident handling and resolution processes |
+| Ticket Prioritization | Categorizing tickets according to urgency and impact |
+| SLA Management | Understanding service-level agreements |
+| Escalation Procedures | Knowing when and how to escalate issues |
 
-### Ticket Templates
-- [Incident Ticket Template](templates/incident-ticket-template.md)
-- [Service Request Template](templates/service-request-template.md)
+## Simulated Help Desk Tickets
 
-## Key IT Support Concepts Demonstrated
+Six common workplace IT support scenarios were investigated.
 
-- Incident Management
-- Service Request Management
-- Ticket Categorization
-- Impact and Urgency Assessment
-- Priority Assignment
-- SLA Monitoring
-- Response and Resolution Time
-- Incident Escalation
-- User Communication
-- Ticket Documentation and Closure
+| Ticket | Issue | Priority | Outcome |
+|---|---|---|---|
+| 001 | Slow Computer | P3 – Medium | Resolved (Simulated) |
+| 002 | Password Reset | P4 – Low | Resolved (Simulated) |
+| 003 | Network Connectivity | P2 – High | Escalated (Simulated) |
+| 004 | Software Installation | P4 – Low | Resolved (Simulated) |
+| 005 | Printer Not Working | P3 – Medium | Resolved (Simulated) |
+| 006 | Email Access Issue | P2 – High | Resolved (Simulated) |
+
+### Key Troubleshooting Activities
+
+**Ticket 001 – Slow Computer**
+- Investigated CPU and memory utilization.
+- Identified applications consuming significant resources.
+- Considered browser tabs, background processes, and startup applications.
+
+**Ticket 002 – Password Reset**
+- Investigated Windows account sign-in problems.
+- Identified a workstation domain trust relationship issue.
+- Considered appropriate administrator escalation.
+
+**Ticket 003 – Network Connectivity**
+- Investigated APIPA addressing and DHCP-related connectivity.
+- Compared connectivity on the company network and a mobile hotspot.
+- Prepared an escalation report for network administration.
+
+**Ticket 004 – Software Installation**
+- Investigated software installation restrictions.
+- Considered organizational software deployment policies.
+- Identified a Microsoft Teams licensing issue.
+
+**Ticket 005 – Printer Not Working**
+- Verified printer selection and status.
+- Investigated the Windows print queue.
+- Cleared stuck print jobs and verified printing.
+
+**Ticket 006 – Email Access Issue**
+- Investigated Microsoft 365 authentication problems.
+- Identified the use of an outdated saved password.
+- Verified successful Outlook access and email functionality.
+
+## Ticket Templates
+
+Two reusable templates are included:
+
+- **Incident Ticket Template:** For recording incidents, investigation findings, troubleshooting steps, and resolutions.
+- **Service Request Template:** For documenting requests for IT services and resources.
+
+## Tools and Technologies
+
+- Windows 11
+- Microsoft Outlook
+- Microsoft 365
+- Windows Task Manager
+- Windows Settings
+- Windows Printer Management
+- Network diagnostic tools
+- Help Desk ticket documentation
 
 ## Skills Demonstrated
 
-- IT Help Desk Support
-- IT Service Management Fundamentals
-- Incident Handling
-- Technical Troubleshooting
-- Problem Documentation
-- Ticket Prioritization
-- Escalation Procedures
-- Professional Communication
-- Technical Reporting
+- IT Help Desk support
+- Incident management
+- Service request management
+- Ticket prioritization
+- Windows troubleshooting
+- Basic networking diagnostics
+- Microsoft 365 support
+- Printer troubleshooting
+- User communication
+- Incident documentation
+- Problem escalation
+- Security and privacy awareness
 
-## Project Status
+## Practical Implementation Status
 
-Documentation preparation completed.
+<escape>**</escape>Documentation:** Completed
 
-The project includes incident management procedures, ticket prioritization guidelines, SLA documentation, escalation procedures, six simulated help desk tickets, and two reusable ticket templates.
+<escape>**</escape>Ticket scenarios:** All six completed as simulated practical exercises.
 
-Practical ticket simulations and testing are pending.
+<escape>**</escape>Ticket templates:** Completed
+
+<escape>**</escape>Practical troubleshooting:** Completed through guided simulations.
+
+## Important Disclaimer
+
+This repository contains training documentation and simulated Help Desk exercises. The scenarios demonstrate troubleshooting approaches and professional support practices but should not be interpreted as actual enterprise IT support work or real-world incident resolution.
 
 ## Author
 
 **Felix Otieno Ochieng'**
+
+Information Technology Graduate | IT Support & Help Desk | Aspiring Data Scientist
 
 - GitHub: [OCHIENG-FELIX](https://github.com/OCHIENG-FELIX)
 - Portfolio: [Personal Portfolio](https://ochieng-felix.github.io/personal-portfolio/)
